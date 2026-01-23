@@ -1,0 +1,260 @@
+{
+  "Metadata": {
+    "title": "INTERFACE — Free Website | Ready in 48 Hours",
+    "description": "Foreign tourists can't find you on Google. Others charge millions, we do it FREE. For the first 1000 businesses."
+  },
+  "HomePage": {
+    "title": "Free Website",
+    "nav": {
+      "index": "Home",
+      "signals": "Problem",
+      "experiments": "What You Get",
+      "principles": "How It Works",
+      "colophon": "Contact"
+    },
+    "hero": {
+      "badge": "2 Engineers from Ulaanbaatar",
+      "headline": "FREE WEBSITE",
+      "subline": "Foreign tourists can't find your business on Google.",
+      "description": "Others charge millions. We do it FREE.",
+      "cta": {
+        "whatsapp": "WhatsApp",
+        "phone": "Call",
+        "viber": "Viber"
+      },
+      "stats": {
+        "time": "24-72 hours",
+        "price": "FREE",
+        "limit": "First 1000 businesses",
+        "guarantee": "100% Satisfaction"
+      }
+    },
+    "whyFree": {
+      "kicker": "The Honest Truth",
+      "title": "WHY FREE?",
+      "description": "We're 2 engineers building Mongolia's best web agency. To prove ourselves, we need 1000 real business websites in our portfolio.",
+      "points": [
+        {
+          "you": "You get",
+          "benefit": "A professional website worth ₮4.7M — completely free"
+        },
+        {
+          "you": "We get",
+          "benefit": "A case study to show future clients"
+        }
+      ],
+      "conclusion": "Win-win. After 1000 businesses, this offer ends forever."
+    },
+    "signals": {
+      "kicker": "01 / Problem",
+      "title": "WHY DO YOU NEED A WEBSITE?",
+      "items": [
+        {
+          "title": "Tourists Can't Find You",
+          "note": "Foreign tourists search on Google and ChatGPT. Your business doesn't show up. Summer is coming — are you ready?"
+        },
+        {
+          "title": "Competitors Are Online",
+          "note": "The shop next door has a website, you don't. Who will customers choose? The one they can find online."
+        },
+        {
+          "title": "Websites Are Expensive",
+          "note": "Other companies charge millions. We offer it FREE for the first 1000 businesses."
+        }
+      ],
+      "cta": "Get Started"
+    },
+    "work": {
+      "kicker": "02 / What You Get",
+      "title": "ALL THIS FOR FREE",
+      "subtitle": "Other companies sell this for millions. We give it FREE.",
+      "valueStack": [
+        {
+          "item": "Professional Landing Page",
+          "price": "₮3,000,000"
+        },
+        {
+          "item": "Design + Logo",
+          "price": "₮1,000,000"
+        },
+        {
+          "item": "Mobile Responsive",
+          "price": "₮500,000"
+        },
+        {
+          "item": "30 Days Support",
+          "price": "₮200,000"
+        }
+      ],
+      "total": {
+        "label": "TOTAL VALUE",
+        "originalPrice": "₮4,700,000",
+        "finalPrice": "FREE"
+      },
+      "requirements": {
+        "title": "Who Can Get This?",
+        "items": [
+          "Running a business (salon, restaurant, cafe, service)",
+          "Available for a phone call",
+          "Ready to work together for 7 days"
+        ]
+      },
+      "cta": "Get Started"
+    },
+    "principles": {
+      "kicker": "03 / How It Works",
+      "title": "READY IN 4 STEPS",
+      "items": [
+        {
+          "number": "01",
+          "title": "Call",
+          "description": "Contact us via WhatsApp or phone."
+        },
+        {
+          "number": "02",
+          "title": "Chat",
+          "description": "30 minute call to understand what you need."
+        },
+        {
+          "number": "03",
+          "title": "We Build",
+          "description": "We build it within 24-72 hours."
+        },
+        {
+          "number": "04",
+          "title": "You Get It",
+          "description": "You get a professional website."
+        }
+      ],
+      "cta": "Get Started"
+    },
+    "team": {
+      "kicker": "Who We Are",
+      "title": "MEET THE TEAM",
+      "subtitle": "We're from Ulaanbaatar. We understand local business.",
+      "members": [
+        {
+          "name": "Enkh",
+          "role": "Co-founder & Engineer",
+          "bio": "Building websites since 2018. Passionate about helping Mongolian businesses go online."
+        },
+        {
+          "name": "Partner",
+          "role": "Co-founder & Engineer",
+          "bio": "Full-stack developer. Loves creating beautiful, fast websites that convert visitors into customers."
+        }
+      ]
+    },
+    "colophon": {
+      "kicker": "04 / Contact",
+      "title": "CALL NOW",
+      "subtitle": "Tourists are coming, are you ready? FREE for the first 1000 businesses.",
+      "cta": {
+        "whatsapp": "Message on WhatsApp",
+        "phone": "Call Us",
+        "viber": "Message on Viber"
+      },
+      "footer": {
+        "copyright": "© {year} INTERFACE. Ulaanbaatar, Mongolia.",
+        "tagline": "Get your business online."
+      }
+    }
+  },
+  "Common": {
+    "audio": {
+      "muteAria": "Mute sound effects",
+      "unmuteAria": "Unmute sound effects",
+      "off": "Sound Off",
+      "on": "Sound On"
+    },
+    "promo": {
+      "banner": "FREE website for the first 1000 businesses — design + development included.",
+      "cta": "Get Started"
+    },
+    "cta": {
+      "getStarted": "Get started",
+      "whatsapp": "WhatsApp",
+      "phone": "Call",
+      "viber": "Viber"
+    }
+  },
+  "FreeLanding": {
+    "kicker": "free website",
+    "title": "Order Your Free Website",
+    "subtitle": "Fill in your details. Verify your email to submit the order.",
+    "demoModeBadge": "demo mode: fake success enabled",
+    "company": {
+      "legend": "Business Info",
+      "typeLabel": "Business type",
+      "typePlaceholder": "Select business type",
+      "nameLabel": "Business name",
+      "namePlaceholder": "Your business name"
+    },
+    "companyTypes": {
+      "startup": "Startup",
+      "sme": "Small Business",
+      "enterprise": "Enterprise",
+      "agency": "Agency",
+      "other": "Other"
+    },
+    "email": {
+      "legend": "Email verification",
+      "label": "Email",
+      "placeholder": "you@company.com",
+      "helper": "We'll send a 6-digit code.",
+      "verifyButton": "Verify email",
+      "sending": "Sending"
+    },
+    "otp": {
+      "title": "Enter Code",
+      "sentTo": "Code sent to",
+      "resendButton": "Resend code",
+      "expires": "Code expires in 10 minutes."
+    },
+    "design": {
+      "legend": "Design + sections",
+      "helper": "Pick a color and select which sections to include.",
+      "primaryColorLabel": "Primary color",
+      "primaryColorHelper": "Used for buttons, highlights, and accents.",
+      "hex": "Hex",
+      "hexAria": "Hex color",
+      "sectionsLabel": "Website sections",
+      "sectionsHelper": "Select sections to include."
+    },
+    "sections": {
+      "hero": { "label": "Hero", "description": "Headline, tagline, main CTA." },
+      "about-us": { "label": "About us", "description": "Story, values, what you do." },
+      "work-sections": { "label": "Work", "description": "Services, products, photos." },
+      "testimonials": { "label": "Testimonials", "description": "Customer reviews." },
+      "pricing": { "label": "Pricing", "description": "Price information." },
+      "faq": { "label": "FAQ", "description": "Common questions." },
+      "contact-us": { "label": "Contact", "description": "Phone, email, address." }
+    },
+    "footer": {
+      "ready": "ready",
+      "submitted": "submitted",
+      "processing": "Processing",
+      "submitButton": "Submit Order"
+    },
+    "validation": {
+      "companyTypeRequired": "Select a business type.",
+      "companyNameRequired": "Business name is required.",
+      "emailInvalid": "Enter a valid email.",
+      "emailForOtp": "Enter a valid email to receive the code.",
+      "primaryColorInvalid": "Pick a valid hex color (e.g. #FF6600).",
+      "sectionsRequired": "Pick at least one section."
+    },
+    "status": {
+      "demoOtpVerified": "Demo mode: Code verified. You can submit.",
+      "demoOrderCreated": "Demo mode: Order created. We'll follow up shortly.",
+      "otpSendFailed": "Could not send code. Please try again.",
+      "otpSent": "Code sent. Check your inbox and enter the 6-digit code.",
+      "networkError": "Network error. Please try again.",
+      "verifyEmailFirst": "Please verify your email first.",
+      "otpRequired": "Enter the 6-digit code to continue.",
+      "otpInvalidOrExpired": "Code is invalid or expired. Please resend.",
+      "orderFailed": "Could not create order. Please try again.",
+      "orderCreated": "Order created. We'll follow up shortly."
+    }
+  }
+}
