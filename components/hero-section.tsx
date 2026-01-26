@@ -57,7 +57,7 @@ export function HeroSection() {
       {/* Main content */}
       <div ref={contentRef} className="flex-1 w-full max-w-4xl">
         {/* Headline */}
-        <h1 className="hero-animate font-(--font-bebas) text-[clamp(3rem,12vw,8rem)] md:text-[clamp(4rem,10vw,10rem)] leading-[0.9] tracking-tight">
+        <h1 className="hero-animate font-(--font-bebas) text-[clamp(3rem,12vw,8rem)] md:text-[clamp(4rem,10vw,10rem)] leading-[1.1] tracking-tight">
           {t("headline")}
         </h1>
 
