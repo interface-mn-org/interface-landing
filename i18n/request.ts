@@ -1,14 +1,17 @@
-import {getRequestConfig} from 'next-intl/server';
-import { cookies } from 'next/headers';
- 
-export default getRequestConfig(async () => {
-  // Static for now, we'll change this later
-  const store = await cookies();
-  const locale = store.get('locale')?.value || 'en';
+import { getRequestConfig } from "next-intl/server"
+import { cookies } from "next/headers"
 
- 
+type Locale = "en" | "mn"
+
+export default getRequestConfig(async () => {
+  const store = await cookies()
+  const raw = store.get("locale")?.value
+
+  // Default language: Mongolian
+  const locale: Locale = raw === "en" || raw === "mn" ? raw : "mn"
+
   return {
-    locale: locale as 'en' | 'mn',
-    messages: (await import(`../messages/${locale}.json`)).default
-  };
-});
+    locale,
+    messages: (await import(`../messages/${locale}.json`)).default,
+  }
+})

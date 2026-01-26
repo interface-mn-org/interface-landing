@@ -109,6 +109,8 @@
     @apply border-border outline-ring/50;
   }
   html {
+    /* Slightly smaller global type scale (~15px vs the default 16px) */
+    font-size: 87.5%;
     overflow-x: hidden;
     max-width: 100vw;
     /* Apply scrollbar styles to html element */
