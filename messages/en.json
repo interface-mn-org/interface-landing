@@ -183,6 +183,15 @@
     "title": "Order Your Free Website",
     "subtitle": "Fill in your details. Verify your email to submit the order.",
     "demoModeBadge": "demo mode: fake success enabled",
+    "steps": {
+      "progress": "Step {step} / 3"
+    },
+    "actions": {
+      "back": "Back",
+      "next": "Next",
+      "verifyAndContinue": "Verify & continue",
+      "changeEmail": "Change email"
+    },
     "company": {
       "legend": "Business Info",
       "typeLabel": "Business type",
@@ -249,6 +258,8 @@
       "demoOrderCreated": "Demo mode: Order created. We'll follow up shortly.",
       "otpSendFailed": "Could not send code. Please try again.",
       "otpSent": "Code sent. Check your inbox and enter the 6-digit code.",
+      "emailVerified": "Email verified. Continue to design.",
+      "emailVerificationExpired": "Email verification expired. Please verify again.",
       "networkError": "Network error. Please try again.",
       "verifyEmailFirst": "Please verify your email first.",
       "otpRequired": "Enter the 6-digit code to continue.",

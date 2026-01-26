@@ -59,7 +59,7 @@ export function MobileNav() {
             className="rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 cursor-pointer"
             aria-label="Go to top"
           >
-            <Logo className="rounded-xl overflow-hidden opacity-90" size={28} />
+            <Logo className="text-black" size={28} markClassName="text-black dark:text-white" glyphClassName="text-black dark:text-white" />
           </button>
 
           <div className="flex items-center gap-3">

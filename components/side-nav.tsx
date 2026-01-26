@@ -55,7 +55,10 @@ export function SideNav() {
           className="rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 cursor-pointer"
           aria-label="Go to top"
         >
-          <Logo className="opacity-90 hover:opacity-100 transition-opacity duration-200 rounded-xl overflow-hidden cursor-pointer" size={32} />
+          <Logo className="opacity-90 hover:opacity-100 transition-opacity duration-200 cursor-pointer" size={32}
+            markClassName="text-black dark:text-white"
+            glyphClassName="text-black dark:text-white"
+          />
         </button>
       </div>
 
