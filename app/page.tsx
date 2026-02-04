@@ -12,7 +12,7 @@ import { PromoBanner } from "@/components/promo-banner"
 export default function Page() {
   return (
     <main className="relative min-h-screen">
-      <h1>INTERFACE</h1>
+      <h1>Interface</h1>
       <PromoBanner />
       <MobileNav />
       <div className="md:hidden h-[calc(2rem+3.5rem+env(safe-area-inset-top))]" aria-hidden="true" />
