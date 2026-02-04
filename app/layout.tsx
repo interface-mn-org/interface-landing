@@ -14,7 +14,17 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: t("title"),
     description: t("description"),
-    generator: "v0.app",
+    applicationName: "INTERFACE",
+    openGraph:{
+      title: t("title"),
+      siteName: "INTERFACE",
+      url: "https://itf.mn",
+      description: t("description"),
+      type: "website",
+      locale: "mn",
+      alternateLocale: ["en"],
+      countryName: "Mongolia",
+    },
     icons: {
       icon: [
         {
