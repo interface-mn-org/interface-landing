@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 export function Logo({
   className = "",
   size = 36,
-  alt = "Logo",
+  alt = "INTERFACE",
   markClassName = "",
   glyphClassName = "",
 }: {
