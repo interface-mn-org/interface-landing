@@ -12,11 +12,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Metadata")
 
   return {
-    title: t("title"),
+    title: "INTERFACE",
     description: t("description"),
     applicationName: "INTERFACE",
     openGraph:{
-      title: t("title"),
+      title: "INTERFACE",
       siteName: "INTERFACE",
       url: "https://itf.mn",
       description: t("description"),
