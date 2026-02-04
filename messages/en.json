@@ -156,7 +156,9 @@
       },
       "footer": {
         "copyright": "© {year} INTERFACE. Ulaanbaatar, Mongolia.",
-        "tagline": "Get your business online."
+        "tagline": "Get your business online.",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service"
       }
     }
   },
@@ -266,6 +268,38 @@
       "otpInvalidOrExpired": "Code is invalid or expired. Please resend.",
       "orderFailed": "Could not create order. Please try again.",
       "orderCreated": "Order created. We'll follow up shortly."
+    }
+  },
+  "Legal": {
+    "PrivacyPolicy": {
+      "metaTitle": "Privacy Policy — INTERFACE",
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated",
+      "backLink": "Back to home",
+      "intro": "INTERFACE (\"we\", \"our\") respects your privacy. This policy describes how we collect, use, and protect your information when you use our website and free website order service.",
+      "section1Title": "Information we collect",
+      "section1Body": "When you request a free website or contact us, we may collect your name, email, phone number, company name, and design preferences. We use this only to deliver the service and communicate with you.",
+      "section2Title": "How we use it",
+      "section2Body": "We use your information to build your website, send verification codes, and follow up on your order. We do not sell or share your data with third parties for marketing.",
+      "section3Title": "Cookies and storage",
+      "section3Body": "We use cookies for language preference (e.g. en/mn) and to keep your session when verifying your email for an order. You can clear cookies in your browser at any time.",
+      "section4Title": "Contact",
+      "section4Body": "For privacy questions, contact us via WhatsApp, phone, or Viber. We are based in Ulaanbaatar, Mongolia."
+    },
+    "TermsOfService": {
+      "metaTitle": "Terms of Service — INTERFACE",
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated",
+      "backLink": "Back to home",
+      "intro": "By using INTERFACE's website and free website offer, you agree to these terms. Please read them carefully.",
+      "section1Title": "The free website offer",
+      "section1Body": "We offer one free website per qualifying business, as described on our site. We reserve the right to refuse or limit the offer. The website remains our template/work until delivered; after delivery, you receive the agreed output.",
+      "section2Title": "Your obligations",
+      "section2Body": "You must provide accurate contact and business information and be available for a short call if we need to clarify requirements. You may not use the service for illegal or misleading purposes.",
+      "section3Title": "No warranty",
+      "section3Body": "The free website is provided \"as is.\" We do not guarantee uninterrupted availability or specific business results. We may update or discontinue the offer with reasonable notice.",
+      "section4Title": "Contact",
+      "section4Body": "For questions about these terms, contact us via WhatsApp, phone, or Viber. Ulaanbaatar, Mongolia."
     }
   }
 }

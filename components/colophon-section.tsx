@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef, useEffect } from "react"
+import Link from "next/link"
 import { WHATSAPP_LINK, PHONE_LINK, VIBER_LINK } from "@/components/cta-buttons"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
@@ -126,9 +127,25 @@ export function ColophonSection() {
         <p className="font-mono text-[10px] text-muted-foreground uppercase tracking-widest">
           {t("footer.copyright", { year: new Date().getFullYear() })}
         </p>
-        <p className="font-mono text-[10px] text-muted-foreground">
-          {t("footer.tagline")}
-        </p>
+        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+          <p className="font-mono text-[10px] text-muted-foreground">
+            {t("footer.tagline")}
+          </p>
+          <span className="font-mono text-[10px] text-muted-foreground sm:border-l sm:border-border/40 sm:pl-4 flex gap-3">
+            <Link
+              href="/privacy-policy"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              {t("footer.privacyPolicy")}
+            </Link>
+            <Link
+              href="/terms-of-service"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              {t("footer.termsOfService")}
+            </Link>
+          </span>
+        </div>
       </div>
     </section>
   )
