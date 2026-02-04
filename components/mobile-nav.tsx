@@ -61,6 +61,7 @@ export function MobileNav() {
           >
             <Logo className="text-black" size={28} markClassName="text-black dark:text-white" glyphClassName="text-black dark:text-white" />
           </button>
+          <span className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Interface</span>
 
           <div className="flex items-center gap-3">
             <ThemeToggle />
@@ -109,4 +110,3 @@ export function MobileNav() {
     </div>
   )
 }
-

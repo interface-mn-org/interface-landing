@@ -48,7 +48,7 @@ export function SideNav() {
 
   return (
     <nav className="fixed left-0 top-0 z-50 h-screen w-16 md:w-20 hidden md:flex flex-col justify-between py-10 border-r border-border/30 bg-background/80 backdrop-blur-sm">
-      <div className="px-4 flex justify-center">
+      <div className="px-4 flex items-center justify-center gap-2">
         <button
           type="button"
           onClick={() => scrollToSection("hero")}
@@ -60,6 +60,7 @@ export function SideNav() {
             glyphClassName="text-black dark:text-white"
           />
         </button>
+        <span className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Interface</span>
       </div>
 
       <div className="flex flex-col gap-6 px-4 items-center flex-1 justify-center">
